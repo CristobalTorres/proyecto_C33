@@ -181,6 +181,7 @@ function handlePlayerArrowCollision() {
       archerCollision.collided ||
       computerCollision.collided
     ) {
+      
       //reto num 1
       computerArcherLife -= 1;
       computer.reduceLife(computerArcherLife);
